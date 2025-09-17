@@ -13,10 +13,9 @@ export default function Contact(){
                
               
                 <form className="form fade-up d3" onSubmit={handleSubmit} style={{marginTop: 14}}>
-                    <input className="input" placeholder="Seu nome" required />
-                    <input className="input" type="email" placeholder="Seu e-mail" required />
-                    <textarea className="textarea" placeholder="Sua mensagem" />
-                    <button className="btn primary" type="submit">Enviar</button>
+                    <p>Entre em contato: {" "}
+                        <a href="mailto:otaviomartins2002@gmail.com">otaviomartins2002@gmail.com</a>
+                    </p>
                 </form>
                 
       
